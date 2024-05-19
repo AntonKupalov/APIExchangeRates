@@ -1,0 +1,11 @@
+﻿@model HomeIndexVIewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div> USD:@Model.ExchangeRatesViewModel.USD</div> 
+    <div> EUR:@Model.ExchangeRatesViewModel.EUR</div> 
+    <div> RUB:@Model.ExchangeRatesViewModel.RUB</div> 
+    
+</div>
